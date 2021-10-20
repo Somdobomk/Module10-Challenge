@@ -13,8 +13,10 @@
 + [About](#about)
 + [Getting Started](#getting_started)
 + [Usage](#usage)
-+ [Contributing](./CONTRIBUTING.md)
 + [Built With](#built_with)
++ [Contributing](./CONTRIBUTING.md)
++ [License](./LICENSE.md)
++ [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 ## About <a name = "about"></a>
 Write about 1-2 paragraphs describing the purpose of your project.
