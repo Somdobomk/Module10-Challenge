@@ -15,7 +15,7 @@
 + [Usage](#usage)
 + [Built With](#built_with)
 + [Contributing](./CONTRIBUTING.md)
-+ [License](./LICENSE.md)
++ [License](./LICENSE)
 + [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 ## About <a name = "about"></a>
