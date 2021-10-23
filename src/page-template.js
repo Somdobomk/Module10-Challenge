@@ -72,7 +72,7 @@ const pageTemplate = (templateData) => {
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
   <body>
-      <header class = "containter">
+      <header class = "container">
           <div class = "row">
               <h1> My Team </h1>
           </div>

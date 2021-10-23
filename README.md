@@ -1,7 +1,7 @@
 # Module 10 - Team Profile Generator
 
 <h1 align="center">
-    <a href="" target="_blank">
+    <a href="https://www.loom.com/share/f9fea82eda77403b97ff21e6940615bd" target="_blank">
      View Demo
     </a>
 </h1>
@@ -10,21 +10,25 @@
 </div>
 
 ## Table of Contents
-+ [About](#about)
-+ [Getting Started](#getting_started)
-+ [Usage](#usage)
-+ [Built With](#built_with)
-+ [Contributing](./CONTRIBUTING.md)
-+ [License](./LICENSE)
-+ [Code of Conduct](./CODE_OF_CONDUCT.md)
+
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Built With](#built_with)
+- [Contributing](./CONTRIBUTING.md)
+- [License](./LICENSE)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 ## About <a name = "about"></a>
+
 Write about 1-2 paragraphs describing the purpose of your project.
 
 ## Getting Started <a name = "getting_started"></a>
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### User Story
+
 ```
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
@@ -32,6 +36,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 ```
 
 ### Acceptance Criteria
+
 ```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
@@ -53,9 +58,11 @@ THEN I exit the application, and the HTML is generated
 ```
 
 ### Prerequisites
+
 What things you need to install the software and how to install them.
 
 ### Installing
+
 A step by step series of examples that tell you how to get a development env running.
 
 Say what the step will be
@@ -69,7 +76,8 @@ End with an example of getting some data out of the system or using it for a lit
 Add notes about how to use the system.
 
 ## Built With <a name = "built_with"></a>
-* [Inquirer](https://www.npmjs.com/package/inquirer)
-* [Jest](https://www.npmjs.com/package/jest)
-* [Font](https://rubjo.github.io/victor-mono/)
-* [Gruvbox Theme](https://github.com/morhetz/gruvbox)
+
+- [Inquirer](https://www.npmjs.com/package/inquirer)
+- [Jest](https://www.npmjs.com/package/jest)
+- [Font](https://rubjo.github.io/victor-mono/)
+- [Gruvbox Theme](https://github.com/morhetz/gruvbox)
