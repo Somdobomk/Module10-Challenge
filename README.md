@@ -13,7 +13,6 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Usage](#usage)
 - [Built With](#built_with)
 - [Contributing](./CONTRIBUTING.md)
 - [License](./LICENSE)
@@ -21,11 +20,9 @@
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This is a node cli application that allows you to generate an HTML page that shows each member of a software engineering team. You will be prompted for information regarding the manager, intern, and engineer.
 
 ## Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### User Story
 
@@ -59,25 +56,20 @@ THEN I exit the application, and the HTML is generated
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+- [Node.js](https://nodejs.org/en/)
+- [Inquirer](https://www.npmjs.com/package/inquirer)
+- [Jest](https://www.npmjs.com/package/jest)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-And repeat
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
+1. Clone this repo.
+2. Navigate to repo foler.
+3. Run `npm install`
+4. Run `node index.js`
+5. Follow the prompts.
+6. Open the `generated-site/index.html` file in your browser to view the results.
 
 ## Built With <a name = "built_with"></a>
 
-- [Inquirer](https://www.npmjs.com/package/inquirer)
-- [Jest](https://www.npmjs.com/package/jest)
 - [Font](https://rubjo.github.io/victor-mono/)
 - [Gruvbox Theme](https://github.com/morhetz/gruvbox)
