@@ -63,7 +63,7 @@ THEN I exit the application, and the HTML is generated
 ### Installing
 
 1. Clone this repo.
-2. Navigate to repo foler.
+2. Navigate to repo folder.
 3. Run `npm install`
 4. Run `node index.js`
 5. Follow the prompts.
