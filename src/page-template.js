@@ -61,38 +61,28 @@ const generateCardSection = (cardTemplate, cardType) => {
 	}
 };
 
-const pageTemplate = (employeeArray) => {
-	let html = `<!DOCTYPE html>
-  <html lang="en"><head>
-    <meta charset="UTF-8">
-    <title>My Team</title>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/f53a07ee43.js" crossorigin="anonymous"></script>
-
-  </head>
+const pageTemplate = (templateData) => {
+	console.log(templateData);
+	return `<!DOCTYPE html>
+<html>
+  <head>
+      <title>Page</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
   <body>
-
-    <div class="container-fluid">
-
-      <div class="jumbotron">
-        <h1 class="text-center"><span><i class="fas fa-fire-alt"></i> My Team <i class="fas fa-fire-alt"></i></span></h1>
-        <hr>
-
-      <div class="row">
-        <!--##CARDS##-->
-
-      </div>
-
-      </div>
-
-    </div>
-
-      <footer class="footer">
-      </footer>
-
+      <header class = "containter">
+          <div class = "row">
+              <h1> My Team </h1>
+          </div>
+      </header>
+      <main class = "container">
+          ${generateCardSection(templateData)}
+      </main>
   </body>
-  </html>`;
+</html>
+`;
 };
 
 module.exports = pageTemplate;
