@@ -1,4 +1,4 @@
-const Employee = require('./lib/Employee');
+const Employee = require('../lib/Employee');
 
 const managerCard = (managerCardTemplate) => {
 	return `<div class="card">
@@ -61,12 +61,38 @@ const generateCardSection = (cardTemplate, cardType) => {
 	}
 };
 
-const pageTemplate = (team) => {
-	let html = '';
-	for (let i = 0; i < team.length; i++) {
-		html += generateCardSection(team[i], team[i].getRole());
-	}
-	return html;
+const pageTemplate = (employeeArray) => {
+	let html = `<!DOCTYPE html>
+  <html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>My Team</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/f53a07ee43.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+
+      <div class="jumbotron">
+        <h1 class="text-center"><span><i class="fas fa-fire-alt"></i> My Team <i class="fas fa-fire-alt"></i></span></h1>
+        <hr>
+
+      <div class="row">
+        <!--##CARDS##-->
+
+      </div>
+
+      </div>
+
+    </div>
+
+      <footer class="footer">
+      </footer>
+
+  </body>
+  </html>`;
 };
 
 module.exports = pageTemplate;

@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
-const template = require('./utils/page-template.js');
-const writeFile = require('./utils/generated-template');
+const template = require('./src/page-template.js');
+const writeFile = require('./src/generated-template');
 
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
@@ -132,5 +132,5 @@ const promptUser = (employeeArray) => {
 	});
 };
 
-// Initialize the functino and start the prompt
+// Initialize the function and start the prompt
 promptUser([]);
