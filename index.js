@@ -6,6 +6,14 @@ const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
 const Intern = require('./lib/Intern');
 
+const managerTemplate = './templates/manager.html';
+const engineerTemplate = './templates/engineer.html';
+const internTemplate = './templates/intern.html';
+const indexHTML = './output/index.html';
+const indexHTMLTemplate = './templates/indexhtmltemplate.html';
+
+let pageHTML = '';
+
 // set of questions for each role
 const roleQuestions = [
 	{
@@ -107,12 +115,18 @@ const promptUser = async () => {
 
 // Initialize the program
 function init() {
-	promptUser().then((response) => {
-		if (response === 'done') {
-			const html = template.generateHTML(team);
-			writeFile('team.html', html);
+	// Prompt the user for each team member
+	promptUser().then((user) => {
+		if (user === 'done') {
+			// generate the HTML
+			pageHTML = template.generateHTML(pageHTML);
+			// write the HTML to the file
+			writeFile(indexHTML, pageHTML);
+			console.log('Successfully wrote to index.html');
 		} else {
-			team.push(response);
+			// add the user to the page
+			pageHTML += template.generateHTML(user.getHtml());
+			// call the function again
 			init();
 		}
 	});
